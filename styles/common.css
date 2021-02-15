@@ -1,0 +1,8 @@
+.fadein {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+#title {
+    font-family: 'Roboto Mono', monospace;
+}

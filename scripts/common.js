@@ -16,7 +16,7 @@ async function blinkingCursor(element, blinks) {
     for (let i = 0; i < blinks; i++)
     {
         await sleep(500);
-        element.innerText += '|';
+        element.innerText += '█';
         await sleep(500);
         element.innerText = element.innerText.slice(0, -1);
     }

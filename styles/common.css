@@ -1,9 +1,33 @@
+@font-face {
+	font-family: 'Perfect DOS';
+	src: url('../assets/fonts/Perfect DOS VGA 437.ttf')  format('truetype');
+}
+
+@font-face {
+	font-family: 'Alagard';
+	src: url('../assets/fonts/alagard.ttf')  format('truetype');
+}
+
+.center-content {
+	text-align: center;
+	height: 100vh; 
+	display: grid; 
+	place-items: center;
+;
+}
+
+.container {
+}
+
+#title {
+	font-family: 'Alagard' !important;
+}
+
 .fadein {
     opacity: 0;
     transition: opacity 1s;
 }
 
-#title {
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 600;
+* {
+    font-family: 'Perfect DOS', monospace;
 }

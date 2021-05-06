@@ -8,26 +8,88 @@
 	src: url('../assets/fonts/alagard.ttf')  format('truetype');
 }
 
-.center-content {
-	text-align: center;
-	height: 100vh; 
+.container {
+	height: 90vh; 
 	display: grid; 
+	text-align: center;
 	place-items: center;
-;
 }
 
-.container {
+.banner {
+	color: white;
+	border-color: #040021 !important;
+	position: absolute;
+	background-color: #362554;
+	width: 100vw;
+	left: 0;
+	height: 45px;
+}
+
+#logo {
+	margin: 5px 5px;
+	size: 40px 40px;
+	position: absolute;
+	left: 5px;
+}
+
+#banner-links {
+	position: absolute;
+	margin: 12px;
+	right: 10px;
 }
 
 #title {
 	font-family: 'Alagard' !important;
+	font-size: 72px;
+	color: #ff6f00;
+	text-shadow: 4px 4px #8f0018, 5px 5px #000000;
+	margin-bottom: 0px;
 }
 
-.fadein {
-    opacity: 0;
-    transition: opacity 1s;
+#socials {
+	margin: 0px 30px;
+	width: 35%;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	text-align: auto;
+	margin: auto !important;
+}
+
+.link {
+	margin: 0px 22px;
+}
+
+#center-content {
+	text-align: center;
+}
+
+#description {
+	text-align: justify;
+	width: 70%;
+	margin: auto;
+	user-select: text;
+}
+
+body {
+	background-color: #1d1840; /*rgb(15, 20, 40);*/
+	color: #e0dfbf;
+	font-size: 22px;
+}
+
+a, a:focus, a:active, a:visited {
+	text-decoration: none;
+	color: inherit;
+	position: relative;
+}
+
+a:hover::before {
+    content: "> ";
+    position: absolute;
+	left: -20px;
 }
 
 * {
     font-family: 'Perfect DOS', monospace;
+    user-select: none;
 }

@@ -10,7 +10,7 @@
 
 .container {
 	height: 90vh; 
-	display: grid; 
+	display: flex;
 	text-align: center;
 	place-items: center;
 }
@@ -48,19 +48,14 @@
 
 #socials {
 	margin: 0px 30px;
-	width: 35%;
 	text-align: center;
-	display: flex;
-	flex-direction: row;
-	text-align: auto;
-	margin: auto !important;
 }
 
 .link {
 	margin: 0px 22px;
 }
 
-#center-content {
+.center-content {
 	text-align: center;
 }
 
@@ -75,6 +70,14 @@ body {
 	background-color: #1d1840; /*rgb(15, 20, 40);*/
 	color: #e0dfbf;
 	font-size: 22px;
+}
+
+h2 {
+	font-family: 'Alagard' !important;
+	font-size: 72px;
+	color: #ff6f00;
+	text-shadow: 4px 4px #8f0018, 5px 5px #000000;
+	margin-bottom: 0px;
 }
 
 a, a:focus, a:active, a:visited {
